@@ -3,7 +3,13 @@
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
     padding: 0;
 }
@@ -16,37 +22,27 @@ header {
 }
 
 .container {
-    width: 82.5%;
+    width: 1280px;
     max-width: 1600px;
     margin: 0 auto;
 }
 
 .banner {
-    background-image: url(../images/Banner\ Image.png);
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     border-radius: 16px;
-    position: relative;
-    width: 100%;
-    padding: 270px 0;
 }
 
-.banner-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+.banner-text-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 177px 0;
 }
 
-.banner-overlay-text {
-    position: relative;
+.banner-text {
     width: 632px;
 }
 
@@ -72,7 +68,7 @@ header {
 
 /* deals part start */
 
-#deals{
+#deals {
     margin-bottom: 120px;
 }
 
@@ -100,7 +96,7 @@ header {
     padding-bottom: 16px;
 }
 
-.deals-container h3{
+.deals-container h3 {
     color: #070211;
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -115,28 +111,51 @@ header {
 
 
 .party-container {
-    background-image: url(../images/Banner\ Image.png);
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     border-radius: 16px;
-    position: relative;
     width: 100%;
-    padding: 270px 0;
 }
 
-.party-overlay-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+.party-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 130px;
 }
 
+.party-text h1 {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
 
+.party-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
 
+.party-text button {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 0;
+}
