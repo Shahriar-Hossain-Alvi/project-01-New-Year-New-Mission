@@ -18,6 +18,11 @@ button {
     cursor: pointer;
 }
 
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 /* banner part start */
 
 header {
@@ -519,6 +524,11 @@ footer{
     color: #fff;
 }
 
+.footer-container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 .footer-top{
     display: flex;
     justify-content: space-between;
@@ -589,4 +599,3 @@ footer{
     font-size: 24px;
     font-weight: 500;
 }
-
