@@ -495,6 +495,10 @@ header {
     padding-bottom: 40px;
 }
 
+.sub-texts form input[type="email"]:focus{
+    outline: 0;
+}
+
 .sub-texts form input[type="email"] {
     padding: 25px 267px 25px 30px;
     border-top-left-radius: 50px;
