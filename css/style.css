@@ -23,6 +23,10 @@ body{
     margin: 0 auto;
 }
 
+.universal-margin{
+    margin: 0 70px;
+}
+
 /* banner part start */
 
 header {
@@ -32,7 +36,6 @@ header {
 
 .container {
     width: 1280px;
-    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -333,7 +336,13 @@ header {
 
 .holiday-banner{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.holiday-banner-right img{
+   width: 100%;
+   height: 433px;
+   bottom: 0;
 }
 
 .holiday-red-area {
@@ -346,10 +355,17 @@ header {
     z-index: -1;
 }
 
-.holiday-discount{
+.holiday-banner-left{
+    width: 62%;
+}
+.holiday-banner-right{
+    width: 38%;
+}
+
+.holiday-discount {
     background-color: #F00;
-    height: 170px;
-    width: 170px;
+    height: 160px;
+    width: 160px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -357,7 +373,7 @@ header {
     border-radius: 50%;
     position: absolute;
     top: 25%;
-    right: 26%;
+    right: 30%;
     border: 4px solid #fff;
     transform: rotate(-45deg);
 }
